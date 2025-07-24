@@ -57,9 +57,6 @@ plugins:
       section_config:
         - name: demo
           inline_refs: short
-  - macros:
-      j2_variable_start_string: "{{{"
-      j2_variable_end_string: "}}}"
   - exclude:
       glob:
         - "*.etag"
